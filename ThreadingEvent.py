@@ -29,6 +29,9 @@ myThread2 = threading.Thread(target = timer,
 #myThread1.daemon=True
 #myThread2.daemon=True
 
+
+
+
 try:
     myThread1.start()
     myThread2.start()
